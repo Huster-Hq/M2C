@@ -36,7 +36,7 @@ This work presents Mask-to-Concept (M2C), a efficient fine-tuning strategy for S
 
 
 
-## Usage
+## 🛠️ Usage
 
 ### Environment Configuration
 * Please refer to the official environment configuration of [SAM3](https://github.com/facebookresearch/sam3) to set up your Python environment.
@@ -85,6 +85,6 @@ python controller.py --pool_root "datasets/Kavsir-seg" --n_shot 5
 }
 ```
 
-## Acknowledgement
+## :dizzy: Acknowledgement
 
 We are grateful to the [Segment Anything Model 3 (SAM3)](https://github.com/facebookresearch/sam3) team for their code and model release.
