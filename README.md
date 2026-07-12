@@ -10,6 +10,12 @@ Quan Zhou<sup>1&ast;</sup> · Shaoqing Zhai<sup>1&ast;</sup> · [**Qiang Hu**](h
 &ast;co-first author &emsp; &dagger;corresponding author
 </div>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2606.26711">
+    <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper">
+  </a>
+</p>
+
 This work presents Mask-to-Concept (M2C), a efficient fine-tuning strategy for SAM3.
 
 ![teaser](figs/visualization_results.jpg)
@@ -66,6 +72,17 @@ python test.py --test_pool_root "datasets/Kavsir-seg/query"
 To simulate the full annotation workflow using the entire dataset (e.g., 5-shot setup), put the full dataset in `datasets/Kavsir-seg/` and run:
 ```bash
 python controller.py --pool_root "datasets/Kavsir-seg" --n_shot 5
+```
+
+## 🖊️ Citation
+
+```bibtex
+@article{zhou2026mask,
+  title={Mask to Concept: Auto-Promptable SAM3 via Efficient Test-Time Concept Embedding Search for Few-Shot Annotation},
+  author={Zhou, Quan and Zhai, Shaoqing and Chen, Qiang Hu Jia and Li, Qiang and Wang, Zhiwei},
+  journal={arXiv preprint arXiv:2606.26711},
+  year={2026}
+}
 ```
 
 ## Acknowledgement
